@@ -1,0 +1,44 @@
+name: yir_login_page
+description: A premium, next-level animated authentication UI package for Flutter featuring CrimsonLoginForm with custom crimson-themed TextFormFields, password strength indicators, and social auth integration using unique geometric CustomPainter designs.
+version: 1.0.0
+publish_to: none
+homepage: https://github.com/Younis7575/yir_login_page
+repository: https://github.com/Younis7575/yir_login_page
+issue_tracker: https://github.com/Younis7575/yir_login_page/issues
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+
+
+# 🔥 Package discoverability improve karega
+topics:
+  - flutter
+  - ui
+  - glassmorphism
+  - widget
+  - design
+
+# 🔥 Platform support (auto detect hota hai but explicit better)
+platforms:
+  android:
+  ios:
+  web:
+  windows:
+  macos:
+  linux:
+
+
+flutter:
+
+   
