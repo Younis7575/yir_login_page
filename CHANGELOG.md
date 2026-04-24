@@ -1,3 +1,18 @@
+## 1.0.3
+
+* UI refinements and improved responsiveness
+* Minor bug fixes and stability improvements
+* Optimized animations for smoother performance
+* Updated documentation
+
+## 1.0.2
+
+* Improved UI performance and animation smoothness
+* Fixed minor bugs in login form validation
+* Enhanced password strength indicator logic
+* Updated documentation and examples
+* Code cleanup and optimization
+
 ## 1.0.0
 
 * **Initial Release** - A premium animated authentication UI package for Flutter
