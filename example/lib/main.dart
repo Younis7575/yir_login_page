@@ -180,7 +180,7 @@ Container(
 
   // ✨ soft glass border
   border: Border.all(
-    color: Colors.white.withOpacity(0.18),
+    color: Colors.white..withValues(alpha:0.18),
   ),
 
   // 🔷 match background (indigo glass)
@@ -188,15 +188,15 @@ Container(
     begin: Alignment.topLeft,
     end: Alignment.bottomRight,
     colors: [
-      Colors.white.withOpacity(0.15),
-      Colors.white.withOpacity(0.05),
+      Colors.white..withValues(alpha:0.15),
+      Colors.white..withValues(alpha:0.05),
     ],
   ),
 
   // 🌑 soft shadow (not harsh black)
   boxShadow: [
     BoxShadow(
-      color: Colors.black.withOpacity(0.15),
+      color: Colors.black..withValues(alpha:0.15),
       blurRadius: 15,
       offset: const Offset(0, 8),
     ),

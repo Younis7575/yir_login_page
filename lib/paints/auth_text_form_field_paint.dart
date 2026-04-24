@@ -48,8 +48,8 @@ class AuthTextFormFieldPainter extends CustomPainter {
         Offset(size.width * 0.3, size.height * 0.5),
         size.width * 0.6,
         [
-          const Color(0xFF1A0000).withOpacity(0.8),
-          const Color(0xFF000000).withOpacity(0.0),
+          const Color(0xFF1A0000)..withValues(alpha:0.8),
+          const Color(0xFF000000)..withValues(alpha:0.0),
         ],
       );
     canvas.drawPath(path, innerGlowPaint);
@@ -62,8 +62,8 @@ class AuthTextFormFieldPainter extends CustomPainter {
         Offset(0, size.height * 0.5),
         Offset(size.width, size.height * 0.5),
         [
-          const ui.Color.fromARGB(255, 255, 255, 255).withOpacity(isFocused ? 1.0 : 0.6),
-          const ui.Color.fromARGB(255, 254, 254, 254).withOpacity(isFocused ? 1.0 : 0.6),
+          const ui.Color.fromARGB(255, 255, 255, 255)..withValues(alpha:isFocused ? 1.0 : 0.6),
+          const ui.Color.fromARGB(255, 254, 254, 254)..withValues(alpha:isFocused ? 1.0 : 0.6),
         ],
         [0, 1],
       );
@@ -98,10 +98,10 @@ class AuthTextFormFieldPainter extends CustomPainter {
           Offset(0, size.height * 0.5),
           Offset(size.width, size.height * 0.5),
           [
-            Colors.white.withOpacity(0.0),
-            Colors.white.withOpacity(0.9),
-            const ui.Color.fromARGB(255, 255, 255, 255).withOpacity(0.8),
-            Colors.white.withOpacity(0.0),
+            Colors.white..withValues(alpha:0.0),
+            Colors.white..withValues(alpha:0.9),
+            const ui.Color.fromARGB(255, 255, 255, 255)..withValues(alpha:0.8),
+            Colors.white..withValues(alpha:0.0),
           ],
           [0.0, 0.4, 0.6, 1.0],
         );

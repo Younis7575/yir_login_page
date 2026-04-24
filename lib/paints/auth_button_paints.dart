@@ -46,9 +46,9 @@ class AuthButtonPainter extends CustomPainter {
         Offset(size.width, size.height * 0.5),
         [
           Color.lerp(const Color(0xFF6A5CFF), Colors.black, darken)!
-      .withOpacity(1),
-  Color.lerp(const Color(0xFF3A3F9F), Colors.black, darken)!
-      .withOpacity(1),
+            ..withValues(alpha: 1),
+          Color.lerp(const Color(0xFF3A3F9F), Colors.black, darken)!
+              .withValues(alpha: 1),
         ],
         [0, 1],
       );
@@ -63,9 +63,9 @@ class AuthButtonPainter extends CustomPainter {
           Offset(sheenX - size.width * 0.15, 0),
           Offset(sheenX + size.width * 0.15, size.height),
           [
-            Colors.white.withOpacity(0.0),
-            Colors.white.withOpacity(0.18),
-            Colors.white.withOpacity(0.0),
+            Colors.white.withValues(alpha: 0.0),
+            Colors.white.withValues(alpha: 0.18),
+            Colors.white.withValues(alpha: 0.0),
           ],
           [0, 0.5, 1],
         );
@@ -82,8 +82,8 @@ class AuthButtonPainter extends CustomPainter {
         Offset(0, 0),
         Offset(0, size.height * 0.35),
         [
-          Colors.white.withOpacity(0.12),
-          Colors.white.withOpacity(0.0),
+          Colors.white..withValues(alpha: 0.12),
+          Colors.white..withValues(alpha: 0.0),
         ],
       );
     canvas.drawRect(

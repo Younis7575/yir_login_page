@@ -190,7 +190,7 @@ class _SocialButtonState extends State<_SocialButton>
                 boxShadow: [
                   BoxShadow(
                     color: const Color(0xFFFF0000)
-                        .withOpacity(0.0 + _glowAnim.value * 0.4),
+                        .withValues(alpha:  0.0 + _glowAnim.value * 0.4),
                     blurRadius: 12,
                     spreadRadius: 2,
                   ),
